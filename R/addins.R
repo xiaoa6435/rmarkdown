@@ -105,7 +105,6 @@ generate_filepath <- function() {
 }
 
 insert_image_from_clipboard_addin <- function() {
-
   if (!requireNamespace("rstudioapi", quietly = TRUE)) {
     stop("rstudioapi needed for paste image into rmd. Please install it.",
          call. = FALSE)
